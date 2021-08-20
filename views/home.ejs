@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Employee Information</title>
+        <link rel="stylesheet" href="/css/home.css">
+    </head>
+    <body>
+
+        <div id="heading">
+            <h1>Your Company</h1>
+        </div>
+
+        <div id="main-heading">
+            <h1>Employee Information</h1>
+            <p>Please fill out the information for our team to keep on file</p>
+        </div>
+
+        <div id="form-heading">
+            <h2>Personal Information</h2>
+            <hr>
+        </div>
+
+        <div id="input-form">
+            <form action="/add-employee" method="POST">
+                <div id="name">
+                    <p class="title">Name</p>
+                    <input class= "input" type="text" name="empFirstName" placeholder="First Name" required>
+                    <input class= "input" type="text" name="empLastName" placeholder="Last Name" required>
+                </div>
+
+                <div id="email">
+                    <p class="title">Email</p>
+                    <input class= "input" type="text" name="empEmail" required>
+                </div>
+
+                <div id="phone">
+                    <p class="title">Contact No.</p>
+                    <input class= "input" type="number" name="empPhone" required>
+                </div>
+
+                <div id="address">
+                    <p class="title">Address</p>
+                    <input class= "input" type="text" name="empAdd" required>
+                </div>
+
+                <div id="pincode">
+                    <p class="title">Pin Code</p>
+                    <input class= "input" type="number" name="empPinCode" required>
+                </div>
+
+                <div class="btn">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
