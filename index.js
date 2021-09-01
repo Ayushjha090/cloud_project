@@ -4,9 +4,9 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 const port = 8000;
 
-const ID = 'AKIARC2L3XKK5JGWOVEV';
-const SECRET = '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';
-const BUCKET_NAME = 'employeedetailstorage';
+const ID = '';
+const SECRET = '';
+const BUCKET_NAME = '';
 var key;
 
 const s3 = new AWS.S3({

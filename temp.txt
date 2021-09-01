@@ -1,5 +1,5 @@
-name: Ayush jha
-email: ayushjha090@gmail.com
-contact: 9990132206
-address: Paschim Puri , Pocket -1
-pincode: 110063
+name: Aakash Thapar
+email: aakashthapar@xyz.com
+contact: 7896542578
+address: H.No.729, Pocket 1, Paschim Puri, New Delhi
+pincode: 110026
